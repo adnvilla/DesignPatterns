@@ -1,8 +1,8 @@
 namespace FactoryMethodConsole
 {
-    public class DbFactory : AbstractDbFactory
+    public class DbFactory
     {
-        public override IDataSource GetDbAdapter(string environment)
+        public IDataSource GetDbAdapter(string environment)
         {
             switch (environment)
             {

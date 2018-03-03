@@ -49,8 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory.cs" />
-    <Compile Include="ConcreteFactory.cs" />
+    <Compile Include="Creator.cs" />
     <Compile Include="ConcreteProduct3.cs" />
     <Compile Include="ConcreteProduct2.cs" />
     <Compile Include="ConcreteProduct.cs" />
